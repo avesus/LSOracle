@@ -1,0 +1,14 @@
+Source: lsoracle
+Section: electronics
+Priority: optional
+Maintainer: Ashton Snelgrove <ashton.snelgrove@utah.edu>
+Build-Depends: gcc-8, g++-8, cmake (>= 3.16), libreadline-dev, lcov, bison, flex, gcovr, libboost-program-options-dev, tzdata, pybind11-dev, libpython3-dev, python3-distutils
+Standards-Version: 4.0.0
+Homepage: https://github.com/lnis-uofu/LSOracle
+
+Package: lsoracle
+Architecture: amd64
+Depends: libboost-program-options1.71.0, libreadline8, libc6
+Description: Logic synthesis tool
+  LSOracle is a logic synthesis tool, capabable of optimizing circuit designs as a standalone
+  tool or as a plugin to yosys.
