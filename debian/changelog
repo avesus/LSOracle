@@ -1,4 +1,4 @@
-lsoracle (0.1.0-1) focal; urgency=low
+lsoracle (0.1.0+SNAPSHOT20210210112350+0700-ppa1~focal) focal; urgency=low
 
   * Initial release.
 
